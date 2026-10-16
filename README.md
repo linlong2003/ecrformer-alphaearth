@@ -9,7 +9,17 @@ Foundations (AEF) embeddings, using ECRformer as the reconstruction backbone.
 This repository is being prepared for release; it does not claim an accepted
 publication or provide a checkpoint download that is not yet available.
 
+## Motivation
+
+![Information sources for cloud removal and motivation for AEF guidance](assets/introduction.png)
+
+AEF provides annual surface context to complement the visible information in
+a cloudy optical observation. Colored AEF panels are pseudocolor embedding
+visualizations, not optical images.
+
 ## Method
+
+![AEF-GCR overall framework, task-aligned AEF adapter, and gated conditioning](assets/framework.png)
 
 - Input: one 13-band cloudy Sentinel-2 image and a spatially aligned
   64-channel AEF embedding. The proposed model does not take SAR as input.
@@ -23,8 +33,8 @@ publication or provide a checkpoint download that is not yet available.
 
 ## Repository scope
 
-Included: model code, AllClear loading, paper configurations, training and
-evaluation, checkpoint conversion, fixed split identifiers, metric aggregation,
+Included: paper illustrations, model code, AllClear loading, paper configurations,
+training and evaluation, checkpoint conversion, fixed split identifiers, metric aggregation,
 and small CPU tests. No raw imagery, model weights, experiment directories,
 credentials, third-party paper PDFs, or internal server notes are included.
 
