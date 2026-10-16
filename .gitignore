@@ -1,0 +1,72 @@
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local environments and credentials (never commit secrets)
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.netrc
+.git-credentials
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Data, weights, and generated experiments; data/ contains source code.
+/datasets/
+/pretrained/
+/checkpoints/
+/experiments/
+/experiment/
+/results/
+/result/
+/outputs/
+/logs/
+/run_logs/
+/lightning_logs/
+/wandb/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.tif
+*.tiff
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.log
+.download_locks/
+
+# Local agent instructions and internal experiment notes
+AGENTS.md
+.agents/
+.codex/
+README.TXT
+
+# Keep documentation images trackable: do not ignore every PNG or PDF.
