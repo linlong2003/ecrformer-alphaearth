@@ -11,7 +11,11 @@ publication or provide a checkpoint download that is not yet available.
 
 ## Motivation
 
-![Information sources for cloud removal and motivation for AEF guidance](assets/introduction.png)
+<p align="center">
+  <img src="assets/introduction.png"
+       alt="Information sources for cloud removal and motivation for AEF guidance"
+       width="500">
+</p>
 
 AEF provides annual surface context to complement the visible information in
 a cloudy optical observation. Colored AEF panels are pseudocolor embedding
@@ -232,6 +236,26 @@ independent test set. ECRformer variants select by validation reconstruction
 loss except the recorded final-checkpoint Zero-AEF control. External GLF-CR
 and DSen2-CR adaptations used validation MAE. Adaptation and conditioning
 change together, so these comparisons do not isolate their individual effects.
+
+### Per-image score distributions
+
+<p align="center">
+  <img src="assets/boxplots.png"
+       alt="Per-image score distributions for six methods on 763 common validation samples"
+       width="600">
+</p>
+
+Boxes show the interquartile range; lines and diamonds denote medians and
+means. RMSE and MAE use logarithmic axes. Arrows indicate the preferred metric
+direction.
+
+### Qualitative comparison
+
+![Qualitative comparison on six common validation samples](assets/comparison.png)
+
+ROI identifiers and input cloud fractions are shown on the left. SAR and AEF
+columns visualize auxiliary inputs, not optical predictions. All optical
+panels share the same display transform. Click the image to inspect details.
 
 ## CPU checks and upload review
 
