@@ -11,7 +11,11 @@ publication or provide a checkpoint download that is not yet available.
 
 ## Motivation
 
-![Information sources for cloud removal and motivation for AEF guidance](assets/introduction.png)
+<p align="center">
+  <img src="assets/introduction.png"
+       alt="Information sources for cloud removal"
+       width="500">
+</p>
 
 AEF provides annual surface context to complement the visible information in
 a cloudy optical observation. Colored AEF panels are pseudocolor embedding
