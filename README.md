@@ -13,7 +13,7 @@ publication or provide a checkpoint download that is not yet available.
 
 <p align="center">
   <img src="assets/introduction.png"
-       alt="Information sources for cloud removal and motivation for AEF guidance"
+       alt="Information sources for cloud removal"
        width="500">
 </p>
 
